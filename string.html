@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+//  NO 1
+            const quoteStart = "Don't judge each day by the harvest you reap";
+            const quoteEnd = "but by the seeds that you plant";
+            const finalQuote = `${quoteStart} ${quoteEnd}`;
+            console.log(finalQuote);
+
+// NO 2
+            const quote = 'I do not like green eggs and ham. I do not like them, Sam-I-Am.';
+            const quoteLength = quote.length;
+            console.log(quoteLength);
+            const substring = 'green eggs and ham';
+            console.log(quote.indexOf('green eggs and ham'));
+            const revisedQuote = quote.slice(0,32);
+            console.log(revisedQuote);
+// NO 3
+            const quotes = 'I dO nOT lIke gREen eGgS anD HAM';
+            console.log(quotes.toLowerCase());
+            let fixedQuote = 'i do not like green eggs and ham';
+            fixedQuote = fixedQuote.replace('i', 'I');
+            console.log(fixedQuote); 
+            fixedQuote = fixedQuote.replace('green eggs and ham', 'ewedu and omiobe');
+            console.log(fixedQuote); 
+
+            // NO 4
+            const theorem = 'Pythagorean theorem';
+
+            const a = 5;
+            const b = 8;
+
+            const myString = `Using *, we can work out that that if the two shortest sides of a right-angled triangle have lengths of
+             * and *, the length of the hypotenuse is *.`;
+             let theLength = 'c';
+             const placeholder = `using ${theorem} we can work out that that if the two shortest sides of a right-angled triangle have lengths of
+                                ${a} and ${b}, the length of the hypotenuse is  {
+                                    (theLength)^2 = (a)^2 + (b)^2
+                                    return result;
+                                }`;
+            console.log(placeholder);         
+
+        </script>
+    </head>
+</html>
+const capitalized = lower.replace(firstLetter,firstLetter.toUpperCase());
+  const result = capitalized;
+  const listItem = document.createElement('li');
+  listItem.textContent = result;
+// 
